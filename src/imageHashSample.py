@@ -3,7 +3,7 @@ import glob
 from PIL import Image
 import imagehash
 
-uploaded_file_names = sorted(glob.glob('image/*.png'))
+uploaded_file_names = sorted(glob.glob('image/*.???'))
 print(uploaded_file_names)
 base_image_hash = imagehash.average_hash(Image.open(uploaded_file_names.pop(0)))
 title = ["似ている画像", "図形の順番を変えた画像", "図形の順番を変えた画像2", "使っている色が同じ画像", "全く別の画像"]
