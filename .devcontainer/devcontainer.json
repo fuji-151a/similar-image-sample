@@ -11,6 +11,9 @@
         "openFiles": []
       },
       "vscode": {
+        "settings": {
+          "workbench.iconTheme": "vscode-icons"
+        },
         "extensions": [
           "ms-python.python",
           "vscode-icons-team.vscode-icons"
