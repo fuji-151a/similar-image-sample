@@ -12,7 +12,8 @@
       },
       "vscode": {
         "extensions": [
-          "ms-python.python"
+          "ms-python.python",
+          "PKief.material-icon-theme"
         ]
       }
     }
