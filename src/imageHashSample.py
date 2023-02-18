@@ -1,3 +1,5 @@
+# Image Hashを用いた類似画像検出
+# image以下のms4_1.pngをベースにそれ以外の画像との類似度を順番に出している
 import glob
 
 from PIL import Image
